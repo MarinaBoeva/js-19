@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('../font/fontello.eot?81535659');
+  src: url('../font/fontello.eot?81535659#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?81535659') format('woff2'),
+       url('../font/fontello.woff?81535659') format('woff'),
+       url('../font/fontello.ttf?81535659') format('truetype'),
+       url('../font/fontello.svg?81535659#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+}
+.icon-right-big:before { content: '\e800'; }
+.icon-rss:before { content: '\e801'; }
+.icon-location:before { content: '\e802'; }
+.icon-window:before { content: '\e803'; }
+.icon-plus:before { content: '\e805'; }
+.icon-search:before { content: '\e806'; }
+.icon-facebook:before { content: '\f09a'; }
+.icon-linkedin:before { content: '\f0e1'; }
+.icon-tablet-1:before { content: '\f10a'; }
+.icon-twitter:before { content: '\f309'; }
+.icon-skype:before { content: '\f339'; } 
